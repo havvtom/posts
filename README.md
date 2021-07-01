@@ -1,3 +1,11 @@
+How to run the project on your local machine
+
+- After cloning the project, go to the posts directory on your command line and run composer install
+- Do not forget to put the .env file in the root folder
+- After configuring the database, run the migrations.
+- Run the command php artisan db:seed --class=UserSeeder, it seeds two users and the associated posts
+- Run php artisan serve and you are good to go
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
