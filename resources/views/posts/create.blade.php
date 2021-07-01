@@ -21,6 +21,7 @@
 						type="text"
 						name="title"
 						id="title"
+						value="{{ old('title') }}"
 					>
 					@error('title')
 						<div class="text-red-500 text-sm">
@@ -41,7 +42,7 @@
 				            cols="30"
 				            rows="4"
 				            placeholder="Post something!"
-				    ></textarea>
+				    >{{ old('body') }}</textarea>
 					@error('body')
 						<div class="text-red-500 text-sm">
 							{{ $message }}
